@@ -30,7 +30,7 @@ This framework to be used in accordance with Appachhi Test Automation Tool in or
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'Appachhi.framework'
  
-  s.source           = { :http => 'https://github.com/irfan-cloudnix/Appachhi/raw/master/builds/Appachhi_SDK_1.0.1.zip' }
+  s.source           = { :http => 'https://github.com/irfan-cloudnix/Appachhi/raw/master/builds/Appachhi_SDK_1.0.2.zip' }
   
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
