@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Appachhi"
-  s.version      = "1.0.2"
+  s.version      = "1.0.0"
   s.summary      = "Objective-C based iOS performance monitoring framework to be used with Appachhi Test Automation Tool"
 
   # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ This framework to be used in accordance with Appachhi Test Automation Tool in or
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'Appachhi.framework'
  
-  s.source           = { :http => 'http://localhost/Appachhi_SDK.zip' }
+  s.source           = { :http => 'https://github.com/irfan-cloudnix/Appachhi/raw/master/builds/Appachhi_SDK_1.0.0.zip' }
   
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
